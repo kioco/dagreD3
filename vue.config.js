@@ -2,7 +2,7 @@
  * @Author: zj.wang
  * @Date: 2020-03-11 11:04:21
  * @LastEditors: zj.wang
- * @LastEditTime: 2020-03-11 11:13:54
+ * @LastEditTime: 2020-03-17 10:40:54
  * @Description: 
  */
 
@@ -28,5 +28,7 @@ module.exports = {
         '@': resolve('src')
       }
     }
+  },
+  chainWebpack (config) {
   }
 }
